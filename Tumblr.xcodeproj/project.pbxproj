@@ -14,6 +14,7 @@
 		B74F386F1E236A5200259DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74F386D1E236A5200259DAA /* LaunchScreen.storyboard */; };
 		B77595DE1E236D8B009710D9 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77595DD1E236D8B009710D9 /* PhotosViewController.swift */; };
 		B77595E01E2373D3009710D9 /* photoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77595DF1E2373D3009710D9 /* photoCell.swift */; };
+		B7F391CE1E2EC47C00388E27 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F391CD1E2EC47C00388E27 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B74F38701E236A5200259DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B77595DD1E236D8B009710D9 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		B77595DF1E2373D3009710D9 /* photoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoCell.swift; sourceTree = "<group>"; };
+		B7F391CD1E2EC47C00388E27 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		E48534F1D559D47D7E067CB2 /* Pods-Tumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B77595DD1E236D8B009710D9 /* PhotosViewController.swift */,
+				B7F391CD1E2EC47C00388E27 /* PhotoDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				B74F38651E236A5200259DAA /* AppDelegate.swift in Sources */,
 				B77595DE1E236D8B009710D9 /* PhotosViewController.swift in Sources */,
+				B7F391CE1E2EC47C00388E27 /* PhotoDetailViewController.swift in Sources */,
 				B77595E01E2373D3009710D9 /* photoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
